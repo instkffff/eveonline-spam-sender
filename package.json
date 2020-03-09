@@ -1,0 +1,44 @@
+{
+  "name": "eve-mail-bomber",
+  "version": "1.0.0",
+  "description": "spam mail sender",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "axios-oauth-client": "^1.2.1",
+    "axios-token-interceptor": "^0.2.0",
+    "ejs": "^3.0.1",
+    "eve-swagger": "^0.3.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "firebase-admin": "^8.9.2",
+    "http": "0.0.0",
+    "i": "^0.3.6",
+    "lowdb": "^1.0.0",
+    "npm": "^6.14.2",
+    "passport": "^0.4.1",
+    "passport-eveonline-sso": "^0.9.2",
+    "serve-handler": "^6.1.2",
+    "utility": "^1.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/instkffff/eve-mail-bomber.git"
+  },
+  "keywords": [
+    "eve",
+    "online",
+    "mail",
+    "sender"
+  ],
+  "author": "NightCandle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/instkffff/eve-mail-bomber/issues"
+  },
+  "homepage": "https://github.com/instkffff/eve-mail-bomber#readme"
+}
