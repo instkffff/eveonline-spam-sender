@@ -25,7 +25,6 @@ async function getkey(){
 	db.get('token[0]').assign({ token:`${accessToken}` }).write()
 }
 
-getkey()
 
 setInterval(function(){
 	getkey()
