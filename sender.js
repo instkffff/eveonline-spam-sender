@@ -19,7 +19,7 @@ let esi2 = esi ({
 
 //sender 
 
-async function send_mail(){
+function send_mail(){
 	accessToken = db.get('token[0].token').value()
 	sent = db.get('sent').value()
 	location = 'characters[' + sent +'].id'
